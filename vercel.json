@@ -4,7 +4,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "./public/profile.html"
+        "dest": "./public/index.html"
       }
     ]
   }
