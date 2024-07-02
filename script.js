@@ -1,8 +1,10 @@
+// Display current time in UTC
+const currentTimeElem = document.getElementById("currentTime");
+const currentDayElem = document.getElementById("currentDay");
+
 document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("DOMContentLoaded", () => {
-    // Display current time in UTC
-    const currentTimeElem = document.getElementById("currentTime");
-    const currentDayElem = document.getElementById("currentDay");
+    
   
     function updateTime() {
       const now = new Date();
@@ -31,3 +33,5 @@ document.addEventListener("DOMContentLoaded", () => {
   updateTime();
   setInterval(updateTime, 1000); // Update time every second
 });
+
+
